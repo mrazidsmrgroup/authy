@@ -9,7 +9,7 @@ class Authy
     /**
      * @param array $input example: ['email' => 'new_user@gmail.com', 'cellphone' => '12345-455-6789', 'country_code' => 97]
      */
-    public static function register(array $input, $hydrate = false)
+    public static function registerUser(array $input, $hydrate = false)
     {
         $data = [
             'query' => [
