@@ -1,0 +1,29 @@
+{
+    "name": "dsmr/authy",
+    "description": "Authy",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Dsmr\\Authy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Firdaus Ishaddin",
+            "email": "firdausishaddin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "laravel/framework": "^9.0 || ^8.0 || ^7.0"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dsmr\\Authy\\AuthyServiceProvider"
+            ]
+        }
+    }
+}
