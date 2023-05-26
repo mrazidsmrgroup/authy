@@ -1,6 +1,6 @@
 <?php
 
-namespace Dsmr\Authy\Services;
+namespace Dsmr\Authy;
 
 use GuzzleHttp\Client;
 
